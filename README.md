@@ -1,3 +1,4 @@
+```php
 <?php
 
 namespace AshBaker;
@@ -8,7 +9,7 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Qquicker',
+                'company' => 'HuyNC',
                 'position' => 'Founder'         
             ]
         ];
@@ -17,19 +18,30 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-            Php::class,
-            Javascript::class,
-            Laravel::class,
-            Vuejs::class,
-            Angular::class,
-            ReactNative::class,
-            TailwindCss::class,
-            Aws::class,
+            'PHP',
+            'C++',
+            'Java',
+            'Javascript',
+            'Typescript',
+            'Laravel',
+            'CodeIgniter',
+            'VueJS',
+            'ReactJS',
+            'TailwindCSS',
+            'MySQL',
+            'SQLite',
+            'MongoDB',
+            'Redis',
+            'Aws',
+            'NodeJS',
+            'Spring',
+            'ExpressJS'
         ];
     }
 
     public function getFutureGoal(): string
     {
-        return 'To contribute to open source.';
+        return 'Earn more money';
     }
 }
+```
